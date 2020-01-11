@@ -1,0 +1,30 @@
+body {
+  display: grid;
+  grid-template-rows: 25% 50% 25%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  justify-items: center;
+  justify-content: center;
+}
+
+#right {
+  order: 1;
+}
+
+main > div,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+
+}
